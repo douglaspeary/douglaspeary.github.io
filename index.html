@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rev. Douglas Kenneth Peary | Unitarian Universalist Minister & Author</title>
+    <style>
+        /* Global Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        h1, h2, h3 {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            margin-bottom: 15px;
+        }
+        
+        a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+        }
+        
+        /* Header Section */
+        header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 50px;
+            padding-bottom: 30px;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .profile-image {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-right: 40px;
+        }
+        
+        .header-content h1 {
+            font-size: 36px;
+            margin-bottom: 5px;
+        }
+        
+        .subtitle {
+            font-size: 18px;
+            color: #666;
+            margin-bottom: 20px;
+        }
+        
+        .short-bio {
+            margin-bottom: 15px;
+            max-width: 600px;
+        }
+        
+        /* Books Section */
+        .books-section {
+            margin-bottom: 50px;
+            padding-bottom: 30px;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .books-section h2 {
+            font-size: 28px;
+            margin-bottom: 30px;
+        }
+        
+        .book-list {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+        }
+        
+        .book {
+            display: flex;
+            gap: 20px;
+        }
+        
+        .book-cover {
+            width: 120px;
+            height: 180px;
+            object-fit: cover;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        
+        .book-info {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            max-height: 180px;
+        }
+        
+        .book-title {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        
+        .book-subtitle {
+            font-style: italic;
+            color: #666;
+            margin-bottom: 10px;
+        }
+        
+        .book-link {
+            display: inline-block;
+            margin-top: auto;
+        }
+        
+        /* Full Bio Section */
+        .full-bio {
+            margin-bottom: 50px;
+            padding-bottom: 30px;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .full-bio h2 {
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+        
+        .full-bio p {
+            margin-bottom: 15px;
+        }
+        
+        /* Footer */
+        footer {
+            text-align: center;
+            color: #666;
+            font-size: 14px;
+            padding: 20px 0;
+        }
+        
+        /* Responsive */
+        @media (max-width: 768px) {
+            header {
+                flex-direction: column;
+                text-align: center;
+            }
+            
+            .profile-image {
+                margin-right: 0;
+                margin-bottom: 20px;
+            }
+            
+            .book {
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            }
+            
+            .book-info {
+                max-height: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="/api/placeholder/200/200" alt="Rev. Douglas Kenneth Peary" class="profile-image">
+        <div class="header-content">
+            <h1>Rev. Douglas Kenneth Peary</h1>
+            <p class="subtitle">Unitarian Universalist Minister, Author, & Humanist</p>
+            <p class="short-bio">Born in 1942 in rural Maine, Rev. Douglas Kenneth Peary is a religious humanist, author, and former Federal Labor Investigator whose work explores humanist philosophy and influential humanist thinkers throughout history.</p>
+            <a href="#full-bio">Learn more about Rev. Peary →</a>
+        </div>
+    </header>
+    
+    <section class="books-section">
+        <h2>Books</h2>
+        <div class="book-list">
+            <div class="book">
+                <img src="/api/placeholder/120/180" alt="Humanist Heroes" class="book-cover">
+                <div class="book-info">
+                    <div>
+                        <p class="book-title">Humanist Heroes</p>
+                        <p class="book-subtitle">Profiles of influential humanist thinkers</p>
+                    </div>
+                    <a href="https://www.amazon.com/dp/1484901169" class="book-link">Purchase on Amazon →</a>
+                </div>
+            </div>
+
+            <div class="book">
+                <img src="/api/placeholder/120/180" alt="Humanist Heroes for Teenage to Senior Citizen Religious Skeptics" class="book-cover">
+                <div class="book-info">
+                    <div>
+                        <p class="book-title">Humanist Heroes for Teenage to Senior Citizen Religious Skeptics</p>
+                        <p class="book-subtitle">Brief biographies of humanist figures for readers of all ages</p>
+                    </div>
+                    <a href="https://www.amazon.com/Humanist-Teenage-Citizen-Religious-Skeptics/dp/1484901169" class="book-link">Purchase on Amazon →</a>
+                </div>
+            </div>
+
+            <div class="book">
+                <img src="/api/placeholder/120/180" alt="Humanist Heroes and More for Teenagers" class="book-cover">
+                <div class="book-info">
+                    <div>
+                        <p class="book-title">Humanist Heroes and More for Teenagers, Young Adults and Other New Skeptics</p>
+                    </div>
+                    <a href="https://www.amazon.com" class="book-link">Purchase on Amazon →</a>
+                </div>
+            </div>
+
+            <div class="book">
+                <img src="/api/placeholder/120/180" alt="Humanist Heroes Through the Centuries" class="book-cover">
+                <div class="book-info">
+                    <div>
+                        <p class="book-title">Humanist Heroes Through the Centuries, 1600's to the Present</p>
+                        <p class="book-subtitle">Volume One of Three: Spinoza to Hawking, Including Ingersoll and Dietrich</p>
+                    </div>
+                    <a href="https://www.barnesandnoble.com/w/humanist-heroes-through-the-centuries-1600s-to-the-present-douglas-kenneth-peary/1122282442" class="book-link">Purchase on Barnes & Noble →</a>
+                </div>
+            </div>
+
+            <div class="book">
+                <img src="/api/placeholder/120/180" alt="Humanist Heroes Through the Centuries Vol 2" class="book-cover">
+                <div class="book-info">
+                    <div>
+                        <p class="book-title">Humanist Heroes Through the Centuries, 1600's to the Present</p>
+                        <p class="book-subtitle">Volume Two of Three</p>
+                    </div>
+                    <a href="https://www.amazon.com" class="book-link">Purchase on Amazon →</a>
+                </div>
+            </div>
+
+            <div class="book">
+                <img src="/api/placeholder/120/180" alt="Humanist Heroes Through the Centuries Vol 3" class="book-cover">
+                <div class="book-info">
+                    <div>
+                        <p class="book-title">Humanist Heroes Through the Centuries, 1600's to the Present</p>
+                        <p class="book-subtitle">Volume Three of Three</p>
+                    </div>
+                    <a href="https://www.amazon.com" class="book-link">Purchase on Amazon →</a>
+                </div>
+            </div>
+
+            <div class="book">
+                <img src="/api/placeholder/120/180" alt="The Life and Teachings of John Hassler Dietrich Vol 5" class="book-cover">
+                <div class="book-info">
+                    <div>
+                        <p class="book-title">The Life and Teachings of the Father of Modern Humanism: John Hassler Dietrich</p>
+                        <p class="book-subtitle">Volume 5</p>
+                    </div>
+                    <a href="https://www.amazon.com/Life-Teachings-Father-Modern-Humanism/dp/1523274344" class="book-link">Purchase on Amazon →</a>
+                </div>
+            </div>
+
+            <div class="book">
+                <img src="/api/placeholder/120/180" alt="The Life and Teachings of John Hassler Dietrich Vol 11" class="book-cover">
+                <div class="book-info">
+                    <div>
+                        <p class="book-title">The Life and Teachings of the Father of Modern Humanism: John Hassler Dietrich</p>
+                        <p class="book-subtitle">Volume 11</p>
+                    </div>
+                    <a href="https://www.amazon.com" class="book-link">Purchase on Amazon →</a>
+                </div>
+            </div>
+
+            <div class="book">
+                <img src="/api/placeholder/120/180" alt="The Life and Teachings of John Hassler Dietrich Vol 15" class="book-cover">
+                <div class="book-info">
+                    <div>
+                        <p class="book-title">The Life and Teachings of the Father of Modern Humanism: John Hassler Dietrich</p>
+                        <p class="book-subtitle">Volume 15</p>
+                    </div>
+                    <a href="https://www.barnesandnoble.com/w/v3-the-life-and-teachings-of-the-father-of-modern-humanism-douglas-kenneth-peary/1134338149" class="book-link">Purchase on Barnes & Noble →</a>
+                </div>
+            </div>
+
+            <div class="book">
+                <img src="/api/placeholder/120/180" alt="Humanism: In Their Own Words" class="book-cover">
+                <div class="book-info">
+                    <div>
+                        <p class="book-title">Humanism: In Their Own Words</p>
+                        <p class="book-subtitle">John Dietrich and Others</p>
+                    </div>
+                    <a href="https://bookshop.org" class="book-link">Purchase on Bookshop →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="full-bio" id="full-bio">
+        <h2>About Rev. Douglas Kenneth Peary</h2>
+        <p>Douglas Kenneth Peary is a Unitarian Universalist (UU) minister and author whose work centers on religious humanism and the lives of influential humanist thinkers. Born on November 14, 1942, in Washburn, Maine, he was raised in a Conservative Baptist Fundamentalist Christian household on a potato farm. His spiritual journey led him from fundamentalist Christianity to Unitarian Universalism, and eventually to becoming a certified Humanist Celebrant in 1980. He earned his Master of Divinity from Starr King School for Religious Leadership in Berkeley, California, and was ordained as a UU minister in 1979.</p>
+        
+        <p>Professionally, Peary served as a Federal Labor Investigator with the National Labor Relations Board for 30 years. In 1989, he co-founded the Humanists of Connecticut, where he held leadership roles including president and vice president. His personal life includes marriage to Joyce Lee Martin in 1972, with whom he had two children, Brett and Brita. After Joyce's passing in 1996, he later married Gabriella, a retired educator, in 2008.</p>
+        
+        <p>Throughout his career, Rev. Peary has authored and edited several books that explore humanist philosophy and biographies of prominent humanist figures. His work aims to make humanist ideas accessible and engaging to readers of all ages, from teenagers to senior citizens. His most notable work includes the "Humanist Heroes" series and the compilation of John Hassler Dietrich's teachings, a key figure in religious humanism.</p>
+        
+        <p><strong>Contact:</strong> <a href="mailto:contact@douglaspeary.com">contact@douglaspeary.com</a></p>
+    </section>
+    
+    <footer>
+        <p>© 2025 Rev. Douglas Kenneth Peary. All rights reserved.</p>
+    </footer>
+</body>
+</html>
